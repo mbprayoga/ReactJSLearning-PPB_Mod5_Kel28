@@ -1,0 +1,35 @@
+/* Styling for the profile card container */
+.profile-card {
+    display: flex;
+    justify-content: left; /* Horizontally center the content */
+    background-color: rgb(40, 40, 68);
+    padding: 10px 20px 10px 500px; /* Add padding to the left */
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left; /* Align text content to the left */
+}
+
+/* Styling for the profile picture */
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Make the image rounded */
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+/* Styling for the name and Favorite Genre */
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+/* Additional styling for the Favorite Genre */
+.profile-genre {
+    font-size: 16px;
+    color: #777;
+    margin-top: 0;
+    margin-left: 0; 
+}
