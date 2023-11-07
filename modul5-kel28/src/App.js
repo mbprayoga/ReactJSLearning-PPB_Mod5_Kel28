@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes, Link, Navigate } from "react-router-dom";
 import { HiHome } from "react-icons/hi";
 import { MdGroup } from "react-icons/md";
-import { FaBook, FaGooglePlay } from "react-icons/fa"; // Import icons for Book and Game
+import { FaBook, FaGooglePlay } from "react-icons/fa"; 
 
 import "./App.css";
 import Movie from "./pages/Movie";
@@ -33,11 +33,11 @@ function App() {
           Movie
         </Link>
         <Link to="/book" className="iconWrapper">
-          <FaBook className="icon" /> {/* Icon for the Book page */}
+          <FaBook className="icon" /> 
           Book
         </Link>
         <Link to="/game" className="iconWrapper">
-          <FaGooglePlay className="icon" /> {/* Icon for the Game page */}
+          <FaGooglePlay className="icon" /> 
           Game
         </Link>
         <Link to="/profile" className="iconWrapper">

@@ -42,7 +42,6 @@ export default function Movie() {
         },
     ];
 
-    // Create a function to navigate to the DetailPage with the selected movie data
     const navigateToDetailPage = (item) => {
         navigate(`/movie/detail/${item.id}`, { state: { movieData: item } });
     };
@@ -80,7 +79,7 @@ export default function Movie() {
                                 size={STAR_SIZE}
                                 color={STAR_COLOR}
                                 rate={item.rate}
-                                onClick={() => navigateToDetailPage(item)} // Pass the item data to navigateToDetailPage
+                                onClick={() => navigateToDetailPage(item)} 
                             />
                             {poster.length === index + 1 && <div style={{ marginBottom: 80 }} />}
                         </Fragment>

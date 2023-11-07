@@ -1,4 +1,4 @@
-/* Styling for the profile card container */
+
 .profile-card {
     display: flex;
     align-items: center;
@@ -8,7 +8,7 @@
     border-radius: 5px;
   }
   
-  /* Styling for the profile picture */
+  
   .profile-picture {
     width: 100px;
     height: 100px;
@@ -17,7 +17,7 @@
     margin-right: 20px;
   }
   
-  /* Styling for the name and NIM */
+  
   .profile-info {
     display: flex;
     flex-direction: column;
@@ -25,21 +25,20 @@
     color: #333;
   }
   
-  /* Additional styling for the NIM */
+  
   .profile-nim {
     font-size: 16px;
     color: #777;
     margin-top: 0;
-    margin-left: 0; /* Remove the margin to reduce the gap between Name and NIM */
+    margin-left: 0; 
   }
   
-  /* Styling for the title */
 .profile-title {
-  color: white; /* Change the title color to white */
-  text-align: center; /* Center-align the title */
+  color: white; 
+  text-align: center; 
 }
 
-/* Additional class to center the title */
+
 .centered-title {
   text-align: center;
 }

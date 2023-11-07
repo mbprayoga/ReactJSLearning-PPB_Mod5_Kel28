@@ -1,8 +1,8 @@
 import { Fragment } from "react";
 import React from "react";
-import "./Profile.css"; // Import the CSS file
-import { groupMembers } from "../data/ProfileData"; // Import the data
-import CardProfile from "../component/CardProfile"; // Import the CardProfile component
+import "./Profile.css"; 
+import { groupMembers } from "../data/ProfileData"; 
+import CardProfile from "../component/CardProfile"; 
 
 export default function Profile() {
   return (

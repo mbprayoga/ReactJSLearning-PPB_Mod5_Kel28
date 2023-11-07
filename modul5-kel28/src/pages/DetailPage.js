@@ -1,10 +1,9 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { AiFillStar } from "react-icons/ai";
-import './DetailPage.css'; // Import the CSS file
+import './DetailPage.css'; 
 
 function DetailPage() {
-    // Get the movie data from the location state
     const { state } = useLocation();
     const movieData = state && state.movieData;
 
@@ -12,7 +11,6 @@ function DetailPage() {
     const STAR_SIZE = 20;
 
     if (!movieData) {
-        // Handle the case where movieData is not available
         return <div className="container">No movie data available.</div>;
     }
 
@@ -32,7 +30,6 @@ function DetailPage() {
             <p className="detail-stars">{stars}</p>
             <p className="detail-detail">Genre: {movieData.genre}</p>
             <p className="detail-detail">Description: {movieData.desc}</p>
-            {/* Add more details as needed */}
         </div>
     );
 }
